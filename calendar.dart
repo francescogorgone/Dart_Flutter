@@ -51,7 +51,7 @@ class _MyScaffoldState extends State<MyScaffold> {
   void _selectedDate(BuildContext context) async {
     DateTime? selectedDate = await showDatePicker(
         context: context,
-        initialDate: DateTime.now(), //data che verrà evidenziata, solitamente il giornoa attuale
+        initialDate: DateTime.now(), //date that will be displayed, usually the current day
         firstDate: DateTime(2020),
         lastDate: DateTime(2025),
     );
